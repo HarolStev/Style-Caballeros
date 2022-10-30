@@ -1,0 +1,90 @@
+@import "colors";
+@import "structur";
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #FFFAFA;
+}
+
+.ancho{
+    height: $ancho;
+}
+
+.server{
+    height: $ancho_server;
+    background-repeat:no-repeat ;
+}
+
+.img_server{
+    height: $ancho_img_serv;
+    
+}
+
+.intro{
+    text-align: center;
+}
+
+.where{
+    background-color: $fondo;
+    width: 100%;
+    .gmaps{
+        margin-left:  $posicion_mapa;
+        border-radius: 14%;
+        width: $ancho_mapa;
+    }
+    h3{
+        padding-left: 10px;
+    }
+    p{
+        margin-left: $posicion_left;
+        font-family: $fuente;
+    }
+}
+
+.tit{
+    color: $texto;
+}
+
+.font{
+    font-family: $fuente;
+}
+
+.fondo{
+    background-color: $fondo;
+    font-family: $fuente;
+}
+
+.fondo2{
+    background-color: $fondo2;
+}
+
+.fondo_color{
+    background-color: $fondo;
+    text-align: center;
+    span{
+        font-family: $fuente;
+    }
+}
+
+.email{
+    text-align: left;
+}
+
+.formul{
+    border-radius: 15px;
+    height: 100%;
+    width: 30%;
+    padding: 10px;
+}
+
+.active-color{
+    background-color: $accordion-active-color;
+}
+
+.accordion-button-icon{
+    background-color: $accordion-btn-color;
+}
+
